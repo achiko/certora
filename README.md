@@ -1,66 +1,16 @@
-## Foundry
+## Certora Tutorial
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+This is a Certora tutorial project following the [Certora Basic Presentation](https://github.com/Certora/basic-presentation/tree/main?tab=readme-ov-file) repository. This project demonstrates the usage of Certora Prover for formal verification of smart contracts.
 
-Foundry consists of:
+## Useful links
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- [Prover installation instructions:](https://docs.certora.com/en/latest/docs/user-guide/getting-started/install.html)
+- [Certora Prover documentation](https://docs.certora.com/)
+- [Certora Prover tutorials](https://docs.certora.com/projects/tutorials/en/latest/index.html)
 
-## Documentation
+> [!TIP]
+> To test your Certora installation, run the following from the repository's
+> root dir:
+> 
+> `certoraRun certora/confs/VotingBug.conf`
 
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
