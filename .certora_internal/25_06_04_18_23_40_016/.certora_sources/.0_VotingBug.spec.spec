@@ -1,5 +1,6 @@
 methods {
-    function totalVotes() returns (uint256) envfree;
+    // Declares the getter for the public state variables as `envfree`
+    function totalVotes() external returns (uint256) envfree;
 }
 
 

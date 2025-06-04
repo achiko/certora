@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "VotingBug",
+    "specfile": "/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/certora/specs/VotingBug.spec",
+    "specfileOrigRelpath": "certora/specs/VotingBug.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

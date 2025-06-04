@@ -1,0 +1,57 @@
+Saving last configuration file to .certora_internal/25_06_04_18_23_40_016/run.conf
+contract name VotingBug is the same as the file name and can be omitted from src/VotingBug.sol:VotingBug
+You are using certora-cli version 7.25.2; however, version 7.29.2 is available. It is recommended to upgrade by running: pip install certora-cli --upgrade
+or
+pip3 install certora-cli --upgrade
+There is no TAC file. Going to script CertoraProver/certoraBuild.py to main_with_args()
+Creating dir /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_23_40_016/.certora_config
+In /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/certora/specs/VotingBug.spec, found the imports: []
+copying spec file /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/certora/specs/VotingBug.spec to /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_23_40_016/.certora_sources/.0_VotingBug.spec.spec
+writing /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_23_40_016/.certora_verify.json
+
+building file src/VotingBug.sol
+Running cmd solc --version
+stdout, stderr = .certora_internal/25_06_04_18_23_40_016/.certora_config/version_check_solc.stdout, .certora_internal/25_06_04_18_23_40_016/.certora_config/version_check_solc.stderr
+Exitcode 0
+Solc run solc --version time: 1.2
+Running cmd solc -o ".certora_internal/25_06_04_18_23_40_016/.certora_config/VotingBug.sol_0/" --overwrite --allow-paths ".",. --standard-json
+stdout, stderr = .certora_internal/25_06_04_18_23_40_016/.certora_config/VotingBug.sol_0.standard.stdout.json, .certora_internal/25_06_04_18_23_40_016/.certora_config/VotingBug.sol_0.standard.stderr.json
+Exitcode 0
+Solc run solc -o ".certora_internal/25_06_04_18_23_40_016/.certora_config/VotingBug.sol_0/" --overwrite --allow-paths ".",. --standard-json time: 0.1448
+reading standard json data from .certora_internal/25_06_04_18_23_40_016/.certora_config/VotingBug.sol_0.standard.stdout.json
+collecting worklist for /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/src/VotingBug.sol
+Processing dependencies from file /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/src/VotingBug.sol
+available keys: dict_keys(['/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/src/VotingBug.sol'])
+Contracts in VotingBug.sol_0 (file src/VotingBug.sol): ['VotingBug']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587200, '/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/src/VotingBug.sol:VotingBug')]
+Working on contract VotingBug
+Working on contract VotingBug
+For contracts of primary VotingBug
+finding primary contract address of /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/src/VotingBug.sol:VotingBug in [(274184521717934524641157099916833587200, '/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/src/VotingBug.sol:VotingBug')]
+Contracts in SDC VotingBug.sol_0: ['VotingBug']
+Building source tree
+Copying /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/src/VotingBug.sol to .certora_internal/25_06_04_18_23_40_016/.certora_sources/src/VotingBug.sol
+Copying /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/certora/specs/VotingBug.spec to .certora_internal/25_06_04_18_23_40_016/.certora_sources/certora/specs/VotingBug.spec
+Copying /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/certora/confs/votingBug.conf to .certora_internal/25_06_04_18_23_40_016/.certora_sources/certora/confs/votingBug.conf
+Backing up current .certora_sources to .certora_internal/25_06_04_18_23_40_016/.certora_sources/.pre_autofinders.0
+Running cmd solc -o ".certora_internal/25_06_04_18_23_40_016/.certora_config/VotingBug.sol_0/" --overwrite --allow-paths "/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_23_40_016/.certora_sources",. --standard-json
+stdout, stderr = .certora_internal/25_06_04_18_23_40_016/.certora_config/VotingBug.sol_0.standard.stdout.json, .certora_internal/25_06_04_18_23_40_016/.certora_config/VotingBug.sol_0.standard.stderr.json
+Exitcode 0
+Solc run solc -o ".certora_internal/25_06_04_18_23_40_016/.certora_config/VotingBug.sol_0/" --overwrite --allow-paths "/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_23_40_016/.certora_sources",. --standard-json time: 0.1196
+reading standard json data from .certora_internal/25_06_04_18_23_40_016/.certora_config/VotingBug.sol_0.standard.stdout.json
+collecting worklist for /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_23_40_016/.certora_sources/src/VotingBug.sol
+Processing dependencies from file /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_23_40_016/.certora_sources/src/VotingBug.sol
+available keys: dict_keys(['/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_23_40_016/.certora_sources/src/VotingBug.sol'])
+Contracts in VotingBug.sol_0 (file .certora_internal/25_06_04_18_23_40_016/.certora_sources/src/VotingBug.sol): ['VotingBug']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587201, '/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_23_40_016/.certora_sources/src/VotingBug.sol:VotingBug')]
+Working on contract VotingBug
+Working on contract VotingBug
+For contracts of primary VotingBug
+finding primary contract address of /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_23_40_016/.certora_sources/src/VotingBug.sol:VotingBug in [(274184521717934524641157099916833587201, '/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_23_40_016/.certora_sources/src/VotingBug.sol:VotingBug')]
+Contracts in SDC VotingBug.sol_0: ['VotingBug']
+Backing up instrumented .certora_sources to .certora_internal/25_06_04_18_23_40_016/.certora_sources/.post_autofinders.0
+Rolling back .certora_sources to .certora_internal/25_06_04_18_23_40_016/.certora_sources/.pre_autofinders.0 version
+Libraries to add = []
+writing file /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_23_40_016/.certora_build.json
+writing file /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_23_40_016/.certora_build_output_props.json
+writing /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_23_40_016/.certora_verify.json

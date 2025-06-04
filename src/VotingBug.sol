@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-contract Voting {
+contract VotingBug {
     uint256 public number;
 
     mapping(address => bool) public voters;
