@@ -1,0 +1,2 @@
+Saving last configuration file to .certora_internal/25_06_04_21_16_55_959/run.conf
+contract name Voting is the same as the file name and can be omitted from src/Voting.sol:Voting

@@ -14,3 +14,8 @@ This is a Certora tutorial project following the [Certora Basic Presentation](ht
 > 
 > `certoraRun certora/confs/VotingBug.conf`
 
+## Certora Prover Links 
+
+[VotingInvariant (No Bug)](https://prover.certora.com/output/9841366/0169033dd9804be3b4e7ef646c08378a?anonymousKey=69831272795f7de98f9c0ec08aa4689953e172a9)
+
+[VotingInvariant Bug version](https://prover.certora.com/output/9841366/d92bbe54248e403fbe2db1fba4b26ffa?anonymousKey=9e5a9d38a9172c7830e4c1e50b2011d74098d4c7)

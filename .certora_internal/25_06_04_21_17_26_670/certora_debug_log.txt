@@ -1,0 +1,54 @@
+Saving last configuration file to .certora_internal/25_06_04_21_17_26_670/run.conf
+contract name Voting is the same as the file name and can be omitted from src/Voting.sol:Voting
+There is no TAC file. Going to script CertoraProver/certoraBuild.py to main_with_args()
+Creating dir /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_21_17_26_670/.certora_config
+In /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/certora/specs/VotingInvariant.spec, found the imports: []
+copying spec file /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/certora/specs/VotingInvariant.spec to /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_21_17_26_670/.certora_sources/.0_VotingInvariant.spec.spec
+writing /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_21_17_26_670/.certora_verify.json
+
+building file src/Voting.sol
+Running cmd solc --version
+stdout, stderr = .certora_internal/25_06_04_21_17_26_670/.certora_config/version_check_solc.stdout, .certora_internal/25_06_04_21_17_26_670/.certora_config/version_check_solc.stderr
+Exitcode 0
+Solc run solc --version time: 0.7692
+Running cmd solc -o ".certora_internal/25_06_04_21_17_26_670/.certora_config/Voting.sol_0/" --overwrite --allow-paths ".",. --standard-json
+stdout, stderr = .certora_internal/25_06_04_21_17_26_670/.certora_config/Voting.sol_0.standard.stdout.json, .certora_internal/25_06_04_21_17_26_670/.certora_config/Voting.sol_0.standard.stderr.json
+Exitcode 0
+Solc run solc -o ".certora_internal/25_06_04_21_17_26_670/.certora_config/Voting.sol_0/" --overwrite --allow-paths ".",. --standard-json time: 0.1566
+reading standard json data from .certora_internal/25_06_04_21_17_26_670/.certora_config/Voting.sol_0.standard.stdout.json
+collecting worklist for /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/src/Voting.sol
+Processing dependencies from file /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/src/Voting.sol
+available keys: dict_keys(['/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/src/Voting.sol'])
+Contracts in Voting.sol_0 (file src/Voting.sol): ['Voting']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587200, '/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/src/Voting.sol:Voting')]
+Working on contract Voting
+Working on contract Voting
+For contracts of primary Voting
+finding primary contract address of /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/src/Voting.sol:Voting in [(274184521717934524641157099916833587200, '/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/src/Voting.sol:Voting')]
+Contracts in SDC Voting.sol_0: ['Voting']
+Building source tree
+Copying /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/certora/specs/VotingInvariant.spec to .certora_internal/25_06_04_21_17_26_670/.certora_sources/certora/specs/VotingInvariant.spec
+Copying /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/src/Voting.sol to .certora_internal/25_06_04_21_17_26_670/.certora_sources/src/Voting.sol
+Copying /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/certora/confs/VotingInvariant.conf to .certora_internal/25_06_04_21_17_26_670/.certora_sources/certora/confs/VotingInvariant.conf
+Backing up current .certora_sources to .certora_internal/25_06_04_21_17_26_670/.certora_sources/.pre_autofinders.0
+Running cmd solc -o ".certora_internal/25_06_04_21_17_26_670/.certora_config/Voting.sol_0/" --overwrite --allow-paths "/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_21_17_26_670/.certora_sources",. --standard-json
+stdout, stderr = .certora_internal/25_06_04_21_17_26_670/.certora_config/Voting.sol_0.standard.stdout.json, .certora_internal/25_06_04_21_17_26_670/.certora_config/Voting.sol_0.standard.stderr.json
+Exitcode 0
+Solc run solc -o ".certora_internal/25_06_04_21_17_26_670/.certora_config/Voting.sol_0/" --overwrite --allow-paths "/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_21_17_26_670/.certora_sources",. --standard-json time: 0.1169
+reading standard json data from .certora_internal/25_06_04_21_17_26_670/.certora_config/Voting.sol_0.standard.stdout.json
+collecting worklist for /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_21_17_26_670/.certora_sources/src/Voting.sol
+Processing dependencies from file /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_21_17_26_670/.certora_sources/src/Voting.sol
+available keys: dict_keys(['/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_21_17_26_670/.certora_sources/src/Voting.sol'])
+Contracts in Voting.sol_0 (file .certora_internal/25_06_04_21_17_26_670/.certora_sources/src/Voting.sol): ['Voting']
+Contracts with their chosen addresses: [(274184521717934524641157099916833587201, '/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_21_17_26_670/.certora_sources/src/Voting.sol:Voting')]
+Working on contract Voting
+Working on contract Voting
+For contracts of primary Voting
+finding primary contract address of /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_21_17_26_670/.certora_sources/src/Voting.sol:Voting in [(274184521717934524641157099916833587201, '/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_21_17_26_670/.certora_sources/src/Voting.sol:Voting')]
+Contracts in SDC Voting.sol_0: ['Voting']
+Backing up instrumented .certora_sources to .certora_internal/25_06_04_21_17_26_670/.certora_sources/.post_autofinders.0
+Rolling back .certora_sources to .certora_internal/25_06_04_21_17_26_670/.certora_sources/.pre_autofinders.0 version
+Libraries to add = []
+writing file /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_21_17_26_670/.certora_build.json
+writing file /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_21_17_26_670/.certora_build_output_props.json
+writing /Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_21_17_26_670/.certora_verify.json

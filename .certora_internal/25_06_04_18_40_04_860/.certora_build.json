@@ -1,0 +1,572 @@
+{
+    "VotingBug_00000000ce4604a0000000000000000000000001": {
+        "contracts": [
+            {
+                "address": "00000000ce4604a0000000000000000000000001",
+                "allMethods": [
+                    {
+                        "contractName": "VotingBug",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "number",
+                        "notpayable": true,
+                        "originalFile": "src/VotingBug.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "8381f58a",
+                        "sourceBytes": {
+                            "begin": 90,
+                            "size": 21
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external"
+                    },
+                    {
+                        "contractName": "VotingBug",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "totalVotes",
+                        "notpayable": true,
+                        "originalFile": "src/VotingBug.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "0d15fd77",
+                        "sourceBytes": {
+                            "begin": 229,
+                            "size": 25
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external"
+                    },
+                    {
+                        "contractName": "VotingBug",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "vote",
+                        "notpayable": true,
+                        "originalFile": "src/VotingBug.sol",
+                        "paramNames": [
+                            "inFavor"
+                        ],
+                        "returns": [],
+                        "sighash": "4b9f5c98",
+                        "sourceBytes": {
+                            "begin": 261,
+                            "size": 269
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    },
+                    {
+                        "contractName": "VotingBug",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "voters",
+                        "notpayable": true,
+                        "originalFile": "src/VotingBug.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "a3ec138d",
+                        "sourceBytes": {
+                            "begin": 118,
+                            "size": 38
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external"
+                    },
+                    {
+                        "contractName": "VotingBug",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "votesAgainst",
+                        "notpayable": true,
+                        "originalFile": "src/VotingBug.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "91b4384d",
+                        "sourceBytes": {
+                            "begin": 196,
+                            "size": 27
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external"
+                    },
+                    {
+                        "contractName": "VotingBug",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "votesInFavor",
+                        "notpayable": true,
+                        "originalFile": "src/VotingBug.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "5e5d6bb5",
+                        "sourceBytes": {
+                            "begin": 163,
+                            "size": 27
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external"
+                    }
+                ],
+                "bytecode": "608060405234801561001057600080fd5b50600436106100625760003560e01c80630d15fd77146100675780634b9f5c98146100855780635e5d6bb5146100a15780638381f58a146100bf57806391b4384d146100dd578063a3ec138d146100fb575b600080fd5b61006f61012b565b60405161007c919061033e565b60405180910390f35b61009f600480360381019061009a9190610396565b610131565b005b6100a96102f3565b6040516100b6919061033e565b60405180910390f35b6100c76102f9565b6040516100d4919061033e565b60405180910390f35b6100e56102ff565b6040516100f2919061033e565b60405180910390f35b61011560048036038101906101109190610421565b610305565b604051610122919061045d565b60405180910390f35b60045481565b64f196e500007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0000000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0000600052600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1615610251576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610248906104d5565b60405180910390fd5b60018060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550600160048190555080156102d5576001600260008282546102c99190610524565b925050819055506102f0565b6001600360008282546102e89190610524565b925050819055505b50565b60025481565b60005481565b60035481565b60016020528060005260406000206000915054906101000a900460ff1681565b6000819050919050565b61033881610325565b82525050565b6000602082019050610353600083018461032f565b92915050565b600080fd5b60008115159050919050565b6103738161035e565b811461037e57600080fd5b50565b6000813590506103908161036a565b92915050565b6000602082840312156103ac576103ab610359565b5b60006103ba84828501610381565b91505092915050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b60006103ee826103c3565b9050919050565b6103fe816103e3565b811461040957600080fd5b50565b60008135905061041b816103f5565b92915050565b60006020828403121561043757610436610359565b5b60006104458482850161040c565b91505092915050565b6104578161035e565b82525050565b6000602082019050610472600083018461044e565b92915050565b600082825260208201905092915050565b7f416c726561647920766f74656400000000000000000000000000000000000000600082015250565b60006104bf600d83610478565b91506104ca82610489565b602082019050919050565b600060208201905081810360008301526104ee816104b2565b9050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b600061052f82610325565b915061053a83610325565b9250828201905080821115610552576105516104f5565b5b9291505056fea26469706673582212207e93336e59e2baee29cdf456f452038b013aaca59e8f461115b067461d7d859564736f6c63430008110033",
+                "compilerName": "solc",
+                "compilerParameters": {
+                    "optimizerOn": false,
+                    "optimizerRuns": null,
+                    "type": "SolcParameters",
+                    "viaIR": false
+                },
+                "compilerVersion": "0.8.17",
+                "constructorBytecode": "608060405234801561001057600080fd5b5061058e806100206000396000f3fe608060405234801561001057600080fd5b50600436106100625760003560e01c80630d15fd77146100675780634b9f5c98146100855780635e5d6bb5146100a15780638381f58a146100bf57806391b4384d146100dd578063a3ec138d146100fb575b600080fd5b61006f61012b565b60405161007c919061033e565b60405180910390f35b61009f600480360381019061009a9190610396565b610131565b005b6100a96102f3565b6040516100b6919061033e565b60405180910390f35b6100c76102f9565b6040516100d4919061033e565b60405180910390f35b6100e56102ff565b6040516100f2919061033e565b60405180910390f35b61011560048036038101906101109190610421565b610305565b604051610122919061045d565b60405180910390f35b60045481565b64f196e500007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000005260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000015260017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0000000552807fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0000600052600160003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060009054906101000a900460ff1615610251576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610248906104d5565b60405180910390fd5b60018060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060006101000a81548160ff021916908315150217905550600160048190555080156102d5576001600260008282546102c99190610524565b925050819055506102f0565b6001600360008282546102e89190610524565b925050819055505b50565b60025481565b60005481565b60035481565b60016020528060005260406000206000915054906101000a900460ff1681565b6000819050919050565b61033881610325565b82525050565b6000602082019050610353600083018461032f565b92915050565b600080fd5b60008115159050919050565b6103738161035e565b811461037e57600080fd5b50565b6000813590506103908161036a565b92915050565b6000602082840312156103ac576103ab610359565b5b60006103ba84828501610381565b91505092915050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b60006103ee826103c3565b9050919050565b6103fe816103e3565b811461040957600080fd5b50565b60008135905061041b816103f5565b92915050565b60006020828403121561043757610436610359565b5b60006104458482850161040c565b91505092915050565b6104578161035e565b82525050565b6000602082019050610472600083018461044e565b92915050565b600082825260208201905092915050565b7f416c726561647920766f74656400000000000000000000000000000000000000600082015250565b60006104bf600d83610478565b91506104ca82610489565b602082019050919050565b600060208201905081810360008301526104ee816104b2565b9050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b600061052f82610325565b915061053a83610325565b9250828201905080821115610552576105516104f5565b5b9291505056fea26469706673582212207e93336e59e2baee29cdf456f452038b013aaca59e8f461115b067461d7d859564736f6c63430008110033",
+                "constructorSrcmap": "65:826:0:-:0;;;;;;;;;;;;;;;;;;;",
+                "extensionContracts": [],
+                "file": "src/VotingBug.sol",
+                "immutables": [],
+                "internalFunctionStarts": [
+                    897,
+                    773,
+                    1161,
+                    1036,
+                    918,
+                    1057,
+                    1316,
+                    805,
+                    299,
+                    815,
+                    305,
+                    1202,
+                    830,
+                    963,
+                    1102,
+                    1237,
+                    857,
+                    1117,
+                    862,
+                    995,
+                    874,
+                    755,
+                    1269,
+                    1013,
+                    1144,
+                    761,
+                    767
+                ],
+                "internalFunctions": {
+                    "0xf196e50000": {
+                        "canonicalId": "src/VotingBug.sol|VotingBug",
+                        "declaringContract": "VotingBug",
+                        "method": {
+                            "contractName": "VotingBug",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "bool",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "vote",
+                            "notpayable": true,
+                            "originalFile": "src/VotingBug.sol",
+                            "paramNames": [
+                                "inFavor"
+                            ],
+                            "returns": [],
+                            "sighash": "4b9f5c98",
+                            "sourceBytes": {
+                                "begin": 261,
+                                "size": 269
+                            },
+                            "stateMutability": "nonpayable",
+                            "visibility": "public"
+                        }
+                    }
+                },
+                "is_static_address": false,
+                "lang": "Solidity",
+                "localAssignments": {},
+                "methods": [
+                    {
+                        "contractName": "VotingBug",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "number",
+                        "notpayable": true,
+                        "originalFile": "src/VotingBug.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "8381f58a",
+                        "sourceBytes": {
+                            "begin": 90,
+                            "size": 21
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external"
+                    },
+                    {
+                        "contractName": "VotingBug",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "votesAgainst",
+                        "notpayable": true,
+                        "originalFile": "src/VotingBug.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "91b4384d",
+                        "sourceBytes": {
+                            "begin": 196,
+                            "size": 27
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external"
+                    },
+                    {
+                        "contractName": "VotingBug",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "voters",
+                        "notpayable": true,
+                        "originalFile": "src/VotingBug.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "a3ec138d",
+                        "sourceBytes": {
+                            "begin": 118,
+                            "size": 38
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external"
+                    },
+                    {
+                        "contractName": "VotingBug",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "votesInFavor",
+                        "notpayable": true,
+                        "originalFile": "src/VotingBug.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "5e5d6bb5",
+                        "sourceBytes": {
+                            "begin": 163,
+                            "size": 27
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external"
+                    },
+                    {
+                        "contractName": "VotingBug",
+                        "fullArgs": [],
+                        "isLibrary": false,
+                        "name": "totalVotes",
+                        "notpayable": true,
+                        "originalFile": "src/VotingBug.sol",
+                        "paramNames": [],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "0d15fd77",
+                        "sourceBytes": {
+                            "begin": 229,
+                            "size": 25
+                        },
+                        "stateMutability": "view",
+                        "visibility": "external"
+                    },
+                    {
+                        "contractName": "VotingBug",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "vote",
+                        "notpayable": true,
+                        "originalFile": "src/VotingBug.sol",
+                        "paramNames": [
+                            "inFavor"
+                        ],
+                        "returns": [],
+                        "sighash": "4b9f5c98",
+                        "sourceBytes": {
+                            "begin": 261,
+                            "size": 269
+                        },
+                        "stateMutability": "nonpayable",
+                        "visibility": "public"
+                    }
+                ],
+                "name": "VotingBug",
+                "original_file": "src/VotingBug.sol",
+                "solidityTypes": [],
+                "sourceBytes": {
+                    "begin": 65,
+                    "size": 468
+                },
+                "srcmap": "65:826:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;229:25;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;261:627;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;163:27;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;90:21;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;196:27;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;118:38;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;229:25;;;;:::o;261:627::-;399:13;331:66;324:89;489:1;421:66;414:77;567:1;499:66;492:77;645:7;577:66;570:83;673:6;:18;680:10;673:18;;;;;;;;;;;;;;;;;;;;;;;;;672:19;664:45;;;;;;;;;;;;:::i;:::-;;;;;;;;;740:4;719:6;:18;726:10;719:18;;;;;;;;;;;;;;;;:25;;;;;;;;;;;;;;;;;;768:1;755:10;:14;;;;783:7;779:103;;;822:1;806:12;;:17;;;;;;;:::i;:::-;;;;;;;;779:103;;;870:1;854:12;;:17;;;;;;;:::i;:::-;;;;;;;;779:103;261:627;:::o;163:27::-;;;;:::o;90:21::-;;;;:::o;196:27::-;;;;:::o;118:38::-;;;;;;;;;;;;;;;;;;;;;;:::o;7:77:1:-;44:7;73:5;62:16;;7:77;;;:::o;90:118::-;177:24;195:5;177:24;:::i;:::-;172:3;165:37;90:118;;:::o;214:222::-;307:4;345:2;334:9;330:18;322:26;;358:71;426:1;415:9;411:17;402:6;358:71;:::i;:::-;214:222;;;;:::o;523:117::-;632:1;629;622:12;769:90;803:7;846:5;839:13;832:21;821:32;;769:90;;;:::o;865:116::-;935:21;950:5;935:21;:::i;:::-;928:5;925:32;915:60;;971:1;968;961:12;915:60;865:116;:::o;987:133::-;1030:5;1068:6;1055:20;1046:29;;1084:30;1108:5;1084:30;:::i;:::-;987:133;;;;:::o;1126:323::-;1182:6;1231:2;1219:9;1210:7;1206:23;1202:32;1199:119;;;1237:79;;:::i;:::-;1199:119;1357:1;1382:50;1424:7;1415:6;1404:9;1400:22;1382:50;:::i;:::-;1372:60;;1328:114;1126:323;;;;:::o;1455:126::-;1492:7;1532:42;1525:5;1521:54;1510:65;;1455:126;;;:::o;1587:96::-;1624:7;1653:24;1671:5;1653:24;:::i;:::-;1642:35;;1587:96;;;:::o;1689:122::-;1762:24;1780:5;1762:24;:::i;:::-;1755:5;1752:35;1742:63;;1801:1;1798;1791:12;1742:63;1689:122;:::o;1817:139::-;1863:5;1901:6;1888:20;1879:29;;1917:33;1944:5;1917:33;:::i;:::-;1817:139;;;;:::o;1962:329::-;2021:6;2070:2;2058:9;2049:7;2045:23;2041:32;2038:119;;;2076:79;;:::i;:::-;2038:119;2196:1;2221:53;2266:7;2257:6;2246:9;2242:22;2221:53;:::i;:::-;2211:63;;2167:117;1962:329;;;;:::o;2297:109::-;2378:21;2393:5;2378:21;:::i;:::-;2373:3;2366:34;2297:109;;:::o;2412:210::-;2499:4;2537:2;2526:9;2522:18;2514:26;;2550:65;2612:1;2601:9;2597:17;2588:6;2550:65;:::i;:::-;2412:210;;;;:::o;2628:169::-;2712:11;2746:6;2741:3;2734:19;2786:4;2781:3;2777:14;2762:29;;2628:169;;;;:::o;2803:163::-;2943:15;2939:1;2931:6;2927:14;2920:39;2803:163;:::o;2972:366::-;3114:3;3135:67;3199:2;3194:3;3135:67;:::i;:::-;3128:74;;3211:93;3300:3;3211:93;:::i;:::-;3329:2;3324:3;3320:12;3313:19;;2972:366;;;:::o;3344:419::-;3510:4;3548:2;3537:9;3533:18;3525:26;;3597:9;3591:4;3587:20;3583:1;3572:9;3568:17;3561:47;3625:131;3751:4;3625:131;:::i;:::-;3617:139;;3344:419;;;:::o;3769:180::-;3817:77;3814:1;3807:88;3914:4;3911:1;3904:15;3938:4;3935:1;3928:15;3955:191;3995:3;4014:20;4032:1;4014:20;:::i;:::-;4009:25;;4048:20;4066:1;4048:20;:::i;:::-;4043:25;;4091:1;4088;4084:9;4077:16;;4112:3;4109:1;4106:10;4103:36;;;4119:18;;:::i;:::-;4103:36;3955:191;;;;:::o",
+                "storageLayout": {
+                    "storage": [
+                        {
+                            "astId": 3,
+                            "contract": "/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_40_04_860/.certora_sources/src/VotingBug.sol:VotingBug",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "primitiveName": "uint256",
+                                "type": "Primitive"
+                            },
+                            "label": "number",
+                            "offset": 0,
+                            "slot": "0",
+                            "type": "t_uint256"
+                        },
+                        {
+                            "astId": 7,
+                            "contract": "/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_40_04_860/.certora_sources/src/VotingBug.sol:VotingBug",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "mappingKeyType": {
+                                    "annotations": [
+                                        {
+                                            "numberOfBytes": "20",
+                                            "type": "StorageAnnotation"
+                                        }
+                                    ],
+                                    "primitiveName": "address",
+                                    "type": "Primitive"
+                                },
+                                "mappingValueType": {
+                                    "annotations": [
+                                        {
+                                            "numberOfBytes": "1",
+                                            "type": "StorageAnnotation"
+                                        }
+                                    ],
+                                    "primitiveName": "bool",
+                                    "type": "Primitive"
+                                },
+                                "type": "Mapping"
+                            },
+                            "label": "voters",
+                            "offset": 0,
+                            "slot": "1",
+                            "type": "t_mapping(t_address,t_bool)"
+                        },
+                        {
+                            "astId": 9,
+                            "contract": "/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_40_04_860/.certora_sources/src/VotingBug.sol:VotingBug",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "primitiveName": "uint256",
+                                "type": "Primitive"
+                            },
+                            "label": "votesInFavor",
+                            "offset": 0,
+                            "slot": "2",
+                            "type": "t_uint256"
+                        },
+                        {
+                            "astId": 11,
+                            "contract": "/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_40_04_860/.certora_sources/src/VotingBug.sol:VotingBug",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "primitiveName": "uint256",
+                                "type": "Primitive"
+                            },
+                            "label": "votesAgainst",
+                            "offset": 0,
+                            "slot": "3",
+                            "type": "t_uint256"
+                        },
+                        {
+                            "astId": 13,
+                            "contract": "/Users/archilphanchulidze/Documents/projects/audits/ceotora/learning/.certora_internal/25_06_04_18_40_04_860/.certora_sources/src/VotingBug.sol:VotingBug",
+                            "descriptor": {
+                                "annotations": [
+                                    {
+                                        "numberOfBytes": "32",
+                                        "type": "StorageAnnotation"
+                                    }
+                                ],
+                                "primitiveName": "uint256",
+                                "type": "Primitive"
+                            },
+                            "label": "totalVotes",
+                            "offset": 0,
+                            "slot": "4",
+                            "type": "t_uint256"
+                        }
+                    ],
+                    "types": {
+                        "t_address": {
+                            "encoding": "inplace",
+                            "label": "address",
+                            "numberOfBytes": "20"
+                        },
+                        "t_bool": {
+                            "encoding": "inplace",
+                            "label": "bool",
+                            "numberOfBytes": "1"
+                        },
+                        "t_mapping(t_address,t_bool)": {
+                            "encoding": "mapping",
+                            "key": "t_address",
+                            "label": "mapping(address => bool)",
+                            "numberOfBytes": "32",
+                            "value": "t_bool"
+                        },
+                        "t_uint256": {
+                            "encoding": "inplace",
+                            "label": "uint256",
+                            "numberOfBytes": "32"
+                        }
+                    }
+                },
+                "transientStorageLayout": null,
+                "varmap": ""
+            }
+        ],
+        "legacyStructLinking": {},
+        "library_addresses": [],
+        "origSourceDir": ".pre_autofinders.0",
+        "primary_contract": "VotingBug",
+        "primary_contract_address": "00000000ce4604a0000000000000000000000001",
+        "prototypeFor": [],
+        "sdc_name": "VotingBug.sol_0",
+        "sourceDir": ".post_autofinders.0",
+        "srclist": {
+            "0": "src/VotingBug.sol"
+        },
+        "state": {},
+        "structLinkingInfo": {}
+    }
+}

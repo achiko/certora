@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-contract VotingBug {
+contract VotingBug2 {
     uint256 public number;
 
     mapping(address => bool) public voters;
@@ -14,11 +14,11 @@ contract VotingBug {
         require(!voters[msg.sender], "Already voted");
         voters[msg.sender] = true;
 
-        totalVotes = 1;
+        totalVotes += 1;
         if (inFavor) {
             votesInFavor += 1;
         } else {
-            votesAgainst += 1;
+            votesAgainst = 1;
         }
     }
 
