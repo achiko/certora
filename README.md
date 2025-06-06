@@ -19,3 +19,5 @@ This is a Certora tutorial project following the [Certora Basic Presentation](ht
 [VotingInvariant (No Bug)](https://prover.certora.com/output/9841366/0169033dd9804be3b4e7ef646c08378a?anonymousKey=69831272795f7de98f9c0ec08aa4689953e172a9)
 
 [VotingInvariant Bug version](https://prover.certora.com/output/9841366/d92bbe54248e403fbe2db1fba4b26ffa?anonymousKey=9e5a9d38a9172c7830e4c1e50b2011d74098d4c7)
+
+[VotingInvariant Sum pre test](https://prover.certora.com/output/9841366/5a6fd671c3994f9389556cda9f87e1f9?anonymousKey=974736918a40a7584811abf413e0a90f277e30f8)

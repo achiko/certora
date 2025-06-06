@@ -1,0 +1,95 @@
+[
+    {
+        "card_title": "general",
+        "content_type": "COMPLEX",
+        "content": [
+            {
+                "inner_title": "Verify",
+                "content_type": "FLAG",
+                "content": "Voting:certora/specs/VotingInvariantPre.spec",
+                "doc_link": "",
+                "tooltip": "",
+                "unsound": "false"
+            },
+            {
+                "inner_title": "CLI Version",
+                "content_type": "FLAG",
+                "content": "7.29.2",
+                "doc_link": "",
+                "tooltip": "",
+                "unsound": "false"
+            },
+            {
+                "inner_title": "flags",
+                "content_type": "COMPLEX",
+                "content": [
+                    {
+                        "inner_title": "msg",
+                        "content_type": "FLAG",
+                        "content": "Voting Invariant Pre Test",
+                        "doc_link": "https://docs.certora.com/en/latest/docs/prover/cli/options.html#msg",
+                        "tooltip": "",
+                        "unsound": "false"
+                    }
+                ],
+                "doc_link": "",
+                "tooltip": "",
+                "unsound": "false"
+            }
+        ]
+    },
+    {
+        "card_title": "files",
+        "content_type": "SIMPLE",
+        "content": [
+            {
+                "inner_title": "files",
+                "content_type": "SIMPLE",
+                "content": [
+                    "src/Voting.sol:Voting"
+                ],
+                "doc_link": "https://docs.certora.com/en/latest/docs/prover/cli/options.html#files",
+                "tooltip": "",
+                "unsound": "false"
+            }
+        ]
+    },
+    {
+        "card_title": "git",
+        "content_type": "COMPLEX",
+        "content": [
+            {
+                "inner_title": "branch",
+                "content_type": "FLAG",
+                "content": "main",
+                "doc_link": "",
+                "tooltip": "",
+                "unsound": "false"
+            },
+            {
+                "inner_title": "dirty",
+                "content_type": "FLAG",
+                "content": "true",
+                "doc_link": "",
+                "tooltip": "",
+                "unsound": "false"
+            },
+            {
+                "inner_title": "origin",
+                "content_type": "FLAG",
+                "content": "https://github.com/achiko/certora.git",
+                "doc_link": "",
+                "tooltip": "",
+                "unsound": "false"
+            },
+            {
+                "inner_title": "revision",
+                "content_type": "FLAG",
+                "content": "49e1f72345ca8b58ccf44954f4888503d5139982",
+                "doc_link": "",
+                "tooltip": "",
+                "unsound": "false"
+            }
+        ]
+    }
+]
