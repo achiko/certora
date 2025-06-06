@@ -1,8 +1,0 @@
-{
-    "importFilesToOrigRelpaths": {},
-    "primary_contract": "VotingBug",
-    "specfile": "certora/specs/VotingBug.spec",
-    "specfileOrigRelpath": "certora/specs/VotingBug.spec",
-    "specfilesToImportDecls": {},
-    "type": "spec"
-}
