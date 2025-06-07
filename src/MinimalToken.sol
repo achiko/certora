@@ -57,6 +57,8 @@ contract MinimalToken {
     function deposit(uint256 amount) public payable {
         require(msg.value >= amount, "Insufficient eth");
         require(msg.sender != address(0), "Depositing to zero address");
+        require(msg.sender != address(this), "Depositing to contract address");
+        
         balanceOf[msg.sender] += amount;
         totalSupply += amount;
     }
