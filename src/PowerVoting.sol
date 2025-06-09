@@ -19,6 +19,7 @@ contract PowerVoting {
     }
 
     function vote(bool inFavor) public {
+
         require(!voters[msg.sender], "Already voted");
         voters[msg.sender] = true;
 
@@ -32,5 +33,4 @@ contract PowerVoting {
             votesAgainst += power;
         }
     }
-
 }

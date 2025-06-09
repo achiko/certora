@@ -3,7 +3,6 @@ methods {
     function totalVotes() external returns (uint256) envfree;
 }
 
-
 rule voteIntegrity(bool inFavor) {
     uint256 votedBefore = totalVotes();
 
